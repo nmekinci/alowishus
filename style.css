@@ -6,7 +6,90 @@
 body{
     font-family: 'Jost', sans-serif;/*400 500 800*/
 }
+/*! NAV AREA*/
 nav{
     display: flex;
     justify-content: space-evenly;
+    padding: 1rem;
+    /* flex-wrap: nowrap; */
+
+}
+.nav__right {
+    display: flex;
+    align-items: center;
+
+}
+.nav__right a{
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: ease 500ms;
+}
+.nav__right a:hover{
+    text-decoration: underline ;
+}
+.nav__right--button{
+    width: 200px;/*let change after that with rem*/
+    height: 50px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    border: none;
+    cursor: pointer;
+    transition: ease 500ms;
+}
+.nav__right--button:hover {
+    background-color: black;
+}
+.nav__right--basket{
+    transition: ease 300ms;
+    padding: 1rem;
+}
+.nav__right--basket:hover{
+    outline: 1px solid black;
+    border-radius: 50%;
+    /* outline-offset: 1rem; */
+}
+/*! NAV AREA */
+
+
+
+/*! MAIN AREA*/
+main{
+    display: flex;
+    padding: 20px;
+}
+.main__left--delic{
+    width: 40vw;
+    height: 40vh;
+    background-color: aqua;
+}
+.main__left--delic h1{
+font-weight: 800;
+font-size: 4rem;
+display: inline;
+
+}
+.main__left--delic img{
+    width: 3rem;
+    height: 2rem;
+    /* display: inline; */
+}
+
+.main__left--button{
+    width: 150px;/*let change after that with rem*/
+    height: 40px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    border: none;
+    cursor: pointer;
+    transition: ease 500ms;
+}
+.main__left--button:hover {
+    background-color: black;
+}
+.shop-cafe{
+    color: black;
 }
