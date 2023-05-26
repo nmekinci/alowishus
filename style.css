@@ -57,10 +57,10 @@ main {
   padding: 20px;
   justify-content: center;
 }
-.main__left{
-    transition: ease 1000ms;
-      /*! NESTED CSS APPLIED*/
-  &:hover{
+.main__left {
+  transition: ease 1000ms;
+  /*! NESTED CSS APPLIED*/
+  &:hover {
     transform: scale(1.1);
   }
 }
@@ -114,7 +114,6 @@ main {
   width: 500px;
   height: 500px;
   z-index: -1;
-
 }
 .main__rigth img {
   width: 6rem;
